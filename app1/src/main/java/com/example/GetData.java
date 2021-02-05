@@ -30,7 +30,7 @@ public class GetData {
 		URL url;
 		StringBuffer content = new StringBuffer();
 		try {
-			url = new URL("http://app2.project2.svc.cluster.local:9080/app2/resource");
+			url = new URL("http://app2.prj2.svc.cluster.local:9080/app2/resource");
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
 			con.setRequestMethod("GET");
 			con.connect();
