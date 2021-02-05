@@ -1,2 +1,1 @@
-# multitenant-network-isolation-tutorial
-This repo contains the source code for the tutorial
+#### This repo contains the source code for the tutorial - Configure multitenant isolation for applications on OpenShift.
