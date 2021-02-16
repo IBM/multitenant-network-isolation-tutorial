@@ -45,6 +45,7 @@ public class GetData {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			return "java.net.UnknownHostException encountered - Could not invoke App2!";
 		}
 
 		return content.toString();
